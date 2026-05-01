@@ -1,0 +1,80 @@
+title: 云熠应援档案馆
+author: madman
+
+navbar-links:
+  首页: ""
+  演唱会: "live concert"
+  双人物料: "CP materials"
+  吾岸剧集和花絮: "wuan"
+  云旗: "yunqi"                                             
+  郝熠然: "haoyiran" 
+  关于本站: "about"
+
+avatar: "/assets/img/avatar-icon.png"
+round-avatar: true
+
+social-network-links:
+  # 暂不设置社交链接
+
+url: "https://madman303.github.io"
+baseurl: "/yunyi-archive"
+url-pretty: "云熠应援档案馆"
+
+title-on-all-pages: true
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+post_search: true
+edit_page_button: false
+navbar-var-length: false
+
+# 颜色主题（青蓝｜云熠CP应援色）
+page-col: "#FFFFFF"
+text-col: "#2C3E50"
+link-col: "#0EA5E9"        # 天蓝色，清爽的链接色
+hover-col: "#059669"        # 翡翠绿，悬停效果
+navbar-col: "#0F172A"       # 深蓝黑顶栏，沉稳高级
+navbar-text-col: "#FFFFFF"  # 顶栏白色文字
+navbar-border-col: "#1E293B"
+footer-col: "#F8FAFC"       # 极浅灰页脚
+footer-text-col: "#64748B"
+footer-link-col: "#0D9488"  # Teal青绿色，页脚链接
+footer-hover-col: "#0F766E"
+
+timezone: "Asia/Shanghai"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: false
+      social-share: false
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
