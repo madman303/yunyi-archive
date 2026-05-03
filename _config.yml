@@ -4,6 +4,9 @@ author: madman
 navbar-links:
   首页: ""
   演唱会: "live concert"
+    - 澳门站: "/演唱会/澳门站"
+    - 曼谷站: "/演唱会/曼谷站"
+    - 香港站: "/演唱会/香港站"
   双人物料: "CP materials"
   吾岸剧集和花絮: "wuan"
   云旗: "yunqi"                                             
