@@ -5,7 +5,6 @@ subtitle: 云熠双人直播回放合集
 ---
 
 <style>
-  /* 两栏布局 */
   .two-columns {
     display: flex;
     gap: 2rem;
@@ -24,8 +23,6 @@ subtitle: 云熠双人直播回放合集
     align-self: start;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
-
-  /* 视频卡片样式 */
   .video-list {
     display: flex;
     flex-direction: column;
@@ -48,8 +45,6 @@ subtitle: 云熠双人直播回放合集
     font-size: 0.85rem;
     margin-bottom: 0.25rem;
   }
-
-  /* 右侧图片框 */
   .photo-box {
     text-align: center;
   }
@@ -64,8 +59,6 @@ subtitle: 云熠双人直播回放合集
     color: #64748b;
     margin-top: 0.5rem;
   }
-
-  /* 青色圆角按钮 */
   .btn-teal {
     display: inline-block;
     background: #0d9488;
@@ -86,7 +79,6 @@ subtitle: 云熠双人直播回放合集
 </style>
 
 <div class="two-columns">
-  <!-- 左侧：直播视频列表 -->
   <div class="left">
     <div class="video-list">
       <div class="video-item">
@@ -94,19 +86,16 @@ subtitle: 云熠双人直播回放合集
         <a href="https://www.alipan.com/s/h7EM7Yt3Kh3" target="_blank">🎥 云熠第一次正式双人直播</a>
         <p>两人分享拍摄趣事，甜度超标。</p>
       </div>
-      <!-- 可以继续添加更多 .video-item -->
+      <!-- 更多直播卡片可以继续添加 -->
     </div>
-    > ⭐ 首次访问需登录阿里云盘，之后可直接播放。
+    <p>⭐ 首次访问需登录阿里云盘，之后可直接播放。</p>
   </div>
 
-  <!-- 右侧：图片 + 青色按钮 -->
   <div class="right">
     <div class="photo-box">
       <img src="/yunyi-archive/assets/img/cp-live/25-12-1.jpg" alt="直播甜蜜瞬间">
       <div class="photo-caption">✨ 云熠直播甜蜜瞬间</div>
-      <a href="https://www.alipan.com/s/你的直播合集链接" class="btn-teal" target="_blank">
-        📸 更多直播花絮
-      </a>
+      <a href="#" class="btn-teal" target="_blank">📸 更多直播花絮</a>
     </div>
   </div>
 </div>
