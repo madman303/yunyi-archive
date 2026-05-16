@@ -35,15 +35,25 @@ subtitle: 云熠双人直播回放合集
     border-left: 4px solid #0d9488;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
-  .video-item a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #0d9488;
-  }
   .date {
     color: #64748b;
     font-size: 0.85rem;
     margin-bottom: 0.25rem;
+  }
+  /* 青色按钮样式（用于链接） */
+  .btn-live {
+    display: inline-block;
+    background: #0d9488;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    transition: background 0.2s;
+  }
+  .btn-live:hover {
+    background: #0f766e;
   }
   .photo-box {
     text-align: center;
@@ -59,43 +69,27 @@ subtitle: 云熠双人直播回放合集
     color: #64748b;
     margin-top: 0.5rem;
   }
-  .btn-teal {
-    display: inline-block;
-    background: #0d9488;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 40px;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    transition: background 0.2s;
-    margin-top: 1rem;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .btn-teal:hover {
-    background: #0f766e;
-  }
 </style>
 
 <div class="two-columns">
+  <!-- 左侧：直播列表 -->
   <div class="left">
     <div class="video-list">
       <div class="video-item">
         <div class="date">2025-05-01</div>
-        <a href="https://www.alipan.com/s/h7EM7Yt3Kh3" target="_blank">🎥 云熠第一次正式双人直播</a>
+        <a href="https://www.alipan.com/s/h7EM7Yt3Kh3" target="_blank" class="btn-live">🎥 云熠第一次正式双人直播</a>
         <p>两人分享拍摄趣事，甜度超标。</p>
       </div>
-      <!-- 更多直播卡片可以继续添加 -->
+      <!-- 以后添加更多直播时，同样使用 .btn-live 样式 -->
     </div>
     <p>⭐ 首次访问需登录阿里云盘，之后可直接播放。</p>
   </div>
 
+  <!-- 右侧：图片（无按钮） -->
   <div class="right">
     <div class="photo-box">
       <img src="/yunyi-archive/assets/img/cp-live/25-12-1.jpg" alt="直播甜蜜瞬间">
       <div class="photo-caption">✨ 云熠直播甜蜜瞬间</div>
-      <a href="#" class="btn-teal" target="_blank">📸 更多直播花絮</a>
     </div>
   </div>
 </div>
