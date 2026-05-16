@@ -65,7 +65,7 @@ footer-hover-col: "#0F766E"
 timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+#permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
