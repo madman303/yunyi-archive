@@ -84,20 +84,26 @@ subtitle: 云熠双人直播回放合集
   <div class="left">
     <div class="video-list">
       <div class="video-item">
-        <div class="date">2025-05-01</div>
+        <div class="date">2025-12-01</div>
         <a href="https://www.alipan.com/s/h7EM7Yt3Kh3" target="_blank" class="btn-live">🎥 云熠第一次正式双人直播</a>
         <p>两人分享拍摄趣事，甜度超标。</p>
       </div>
+      <div class="video-item">
+  <div class="date">2025-12-05</div>
+  <a href="https://www.alipan.com/s/YwWBN9sgeyz" target="_blank" class="btn-live">🎥 云熠第二次直播</a>
+  <p>两人讨论了喜欢的颜色还玩了小游戏</p>
+</div>
       <!-- 以后添加更多直播时，同样使用 .btn-live 样式 -->
     </div>
     <p>⭐ 首次访问需登录阿里云盘，之后可直接播放。</p>
   </div>
 
-  <!-- 右侧：图片（无按钮） -->
-  <div class="right">
-    <div class="photo-box">
-      <img src="/yunyi-archive/assets/img/cp-live/25-12-1.jpg" alt="直播甜蜜瞬间">
-      <div class="photo-caption">✨ 云熠直播甜蜜瞬间</div>
-    </div>
+  <!-- 右侧：图片 -->
+<div class="right">
+  <div class="photo-box">
+    <img src="/yunyi-archive/assets/img/cp-live/25-12-1.jpg" alt="第一次直播">
+    <div class="photo-caption">🎬 2025-12-01 第一次直播</div>
+    <img src="/yunyi-archive/assets/img/cp-live/25-12-5.jpg" alt="第二次直播" style="margin-top: 1rem;">
+    <div class="photo-caption">🎬 2025-12-05 第二次直播</div>
   </div>
 </div>
