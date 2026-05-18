@@ -9,6 +9,7 @@ subtitle: 云熠双人直播回放合集
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    align-items: stretch; /* 让两栏高度自动拉伸对齐 */
   }
   .left {
     flex: 2;
@@ -20,7 +21,9 @@ subtitle: 云熠双人直播回放合集
     background: #f8fafc;
     border-radius: 24px;
     padding: 1.2rem;
-    align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 让内容上下分布，底部不留白 */
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   }
   .video-list {
@@ -40,7 +43,6 @@ subtitle: 云熠双人直播回放合集
     font-size: 0.85rem;
     margin-bottom: 0.25rem;
   }
-  /* 青色按钮样式（用于链接） */
   .btn-live {
     display: inline-block;
     background: #0d9488;
@@ -57,10 +59,16 @@ subtitle: 云熠双人直播回放合集
   }
   .photo-box {
     text-align: center;
+    flex: 1;  /* 让图片区域占用剩余空间 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .photo-box img {
     width: 100%;
     border-radius: 20px;
+    object-fit: cover;
+    max-height: 400px;  /* 限制最高，避免过高 */
     margin-bottom: 1rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   }
